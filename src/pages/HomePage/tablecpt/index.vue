@@ -111,9 +111,7 @@ export default {
       console.log("row, column, event", row, column, event);
       debounce(() => {
         this.row = row;
-        this.$store
-          .dispatch("NewHomePageModule/ReqchargeMessageFun", row.chargeMessage)
-          .then(() => {});
+      
       }, 500);
     },
 

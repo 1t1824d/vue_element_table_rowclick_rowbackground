@@ -77,7 +77,7 @@ export default {
   .HomePageOutbox {
     width: calc(100% - 60px);
     height: calc(100% - 60px);
-    background: rgba(1, 73, 67, 0.825);
+    background: rgba(0, 0, 71, 0.825);
   }
 }
 </style>
