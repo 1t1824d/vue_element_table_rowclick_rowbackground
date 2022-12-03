@@ -45,7 +45,7 @@
         <template slot-scope="scope">
           <div class="SetLocationDivOutbox">
             <div
-              class="SetLocationDiv iconfont icon-weizhi"
+              class="SetLocationDiv iconfont icon-shuichang"
               @click.stop="DWFun(scope.row, scope.$index)"
               :class="
                 ActiveIconStyleStatus && ActiveIconNowIndex == scope.$index
