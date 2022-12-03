@@ -7,7 +7,7 @@
       :header-cell-style="tableHeaderColor"
       @row-click="RowClickFun"
       :cell-style="TableCellStyle"
-      >chargeMessage
+      >
       <el-table-column
         prop="chargeMessage"
         label="时间"
