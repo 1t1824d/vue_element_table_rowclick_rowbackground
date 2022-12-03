@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "DS-DIGI";
+    src: url("./DS-DIGI.ttf") format("truetype"), url("./DS-DIGI.eot") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "YouSheBiaoTiHei-2";
+    src: url("./YouSheBiaoTiHei-2.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PangMenZhengDaoBiaoTiTi-1";
+    src: url("./PangMenZhengDaoBiaoTiTi-1.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fontfamily_DSDIGI {
+    font-family: "DS-DIGI" !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fontfamily_YouSheBiaoTiHei {
+    font-family: "YouSheBiaoTiHei-2" !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fontfamily_PangMenZhengDaoBiaoTiTi {
+    font-family: "PangMenZhengDaoBiaoTiTi-1" !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
